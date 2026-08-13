@@ -1,0 +1,26 @@
+{
+  "name": "ai-round-table",
+  "version": "0.1.0",
+  "private": true,
+  "description": "让浏览器中的多个 AI 围绕一个话题展开辩论，自动调度发言、传递观点、推动共识。",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "2.7.1",
+    "@types/chrome": "^0.0.287",
+    "@types/node": "^26.2.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.2",
+    "vite": "^5.4.11"
+  }
+}
